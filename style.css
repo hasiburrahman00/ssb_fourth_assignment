@@ -1,0 +1,215 @@
+body {
+	margin: 0;
+	font-family: tahoma;
+}
+.container {
+	width: 70%;
+	margin: auto;
+}
+
+/*****************header-area*****************/
+.welcome-area {
+	background-color: #535d69;
+}
+.welcome-area .left {
+	float: left;
+	overflow: hidden;
+}
+.welcome-area h2 {
+	color: #ffffff;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: bold;
+}
+.welcome-area .right {
+	overflow: hidden;
+}
+.welcome-area .right ul {
+	text-align: right;
+	margin: 10px 0;
+}
+.welcome-area .right ul li {
+	display: inline;
+}
+.welcome-area .right ul li a {
+	text-decoration: none;
+	padding: 10px 10px;
+	color: #ffffff;
+
+}
+
+.right ul li:hover a {
+	color: red;
+	transition: .5s;
+}
+.btn {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	margin-left: 20px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: #b62536;
+
+}
+.btn:hover {
+	background: #820113;
+
+}
+.menu {
+	padding: 15px 0;
+}
+.menu .logo {
+	float: left;
+	width: 15%;
+}
+.menu .logo img {
+	width: 100%;
+	margin-top: 0;
+}
+.menu .nav-bar {
+	text-align: right;
+}
+.menu .nav-bar ul {
+	margin-top: 15px;
+
+}
+.menu .nav-bar ul li {
+	display: inline;
+	padding: 20px 8px;
+}
+.menu .nav-bar ul li a {
+	text-decoration: none;
+	font-size: 17px;
+	padding: 0 5px;
+	display: inline-block;
+	margin-top: 15px;
+	color: black;
+}
+.menu .nav-bar ul li:hover a{
+	color: #b62536;
+}
+.menu .nav-bar ul .current a {
+	color: #b62536;
+}
+
+
+.banner {
+	background-image: url(images/banner8.jpg);
+	background-size: cover;
+	padding: 150px 0;
+	color: #ffffff;
+
+}
+.banner h2 {
+	font-size: 40px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.banner p {
+	line-height: 1.3;
+	text-transform: capitalize;
+	font-size: 14px;
+
+}
+.banner .btn {
+	margin-left: 0;
+	margin-top: 20px;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	transition: .6s;
+}
+.services {
+	padding: 50px 0;
+	overflow: hidden;
+}
+.services h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 35px;
+	opacity: .8;
+	letter-spacing: 1px;
+}
+.services p {
+	text-align: center;
+	word-spacing: 1.4px;
+	line-height: 1.4;
+	opacity: .7;
+}
+.work-type {
+	margin-top: 90px;
+}
+.services .col-1-3 {
+	width: 33.33%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+.col-1-3 img {
+	width: 35%;
+	margin: auto;
+	cursor: pointer;
+}
+.col-1-3 h5 {
+	margin-top: 10px;
+	opacity: .8;
+	
+}
+
+.learn-more {
+	background-color: #f1f2f6;
+	padding: 100px 0;
+	overflow: hidden;
+}
+.learn-more .left {
+	width: 50%;
+	float: left;
+}
+.learn-more .left h3 {
+	text-transform: uppercase;
+	line-height: 1.4;
+	opacity: .8;
+}
+.learn-more .left p {
+	font-size: 14px;
+	opacity: .7;
+	letter-spacing: 1px;
+	line-height: 1.3;
+}
+.learn-more .left .btn {
+	border: 2px solid transparent;
+	border-radius: 4px;
+	margin-left: 0;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.learn-more .right {
+	width: 50%;
+	float: right;
+}
+.learn-more .right iframe {
+	width: 360px;
+	height: 200px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
